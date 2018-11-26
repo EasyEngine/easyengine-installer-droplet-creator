@@ -1,0 +1,15 @@
+{
+    "name": "easyengine/easyengine-installer-droplet-creator",
+    "description": "Create instance on digital ocean to test EasyEngine installer script",
+    "license": "GPLv2",
+    "authors": [
+        {
+            "name": "Utkarsh Patel",
+            "email": "utkarsh.patel@rtcamp.com"
+        }
+    ],
+    "require": {
+        "toin0u/digitalocean-v2": "^2.2",
+        "kriswallsmith/buzz": "^0.15.2"
+    }
+}

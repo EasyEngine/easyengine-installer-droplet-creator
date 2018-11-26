@@ -1,0 +1,135 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "ee65bbbc6a1c1a6b6456ecf6667a8099",
+    "packages": [
+        {
+            "name": "kriswallsmith/buzz",
+            "version": "v0.15.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/kriswallsmith/Buzz.git",
+                "reference": "d0b82d8a6169276f91f445c26792ff4a2b11e831"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/kriswallsmith/Buzz/zipball/d0b82d8a6169276f91f445c26792ff4a2b11e831",
+                "reference": "d0b82d8a6169276f91f445c26792ff4a2b11e831",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^5.3.3 || ^7.0"
+            },
+            "require-dev": {
+                "symfony/phpunit-bridge": "^3.3"
+            },
+            "suggest": {
+                "ext-curl": "*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Buzz\\": "lib/Buzz"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Kris Wallsmith",
+                    "email": "kris.wallsmith@gmail.com",
+                    "homepage": "http://kriswallsmith.net/"
+                }
+            ],
+            "description": "Lightweight HTTP client",
+            "homepage": "https://github.com/kriswallsmith/Buzz",
+            "keywords": [
+                "curl",
+                "http client"
+            ],
+            "time": "2017-11-24T19:18:50+00:00"
+        },
+        {
+            "name": "toin0u/digitalocean-v2",
+            "version": "2.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/toin0u/DigitalOceanV2.git",
+                "reference": "c894bb11d09fff273a10291b0c0f3ef81297a578"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/toin0u/DigitalOceanV2/zipball/c894bb11d09fff273a10291b0c0f3ef81297a578",
+                "reference": "c894bb11d09fff273a10291b0c0f3ef81297a578",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "~1.11",
+                "guzzle/guzzle": "~3.7",
+                "guzzlehttp/guzzle": "~5.0|~6.0",
+                "kriswallsmith/buzz": "~0.10",
+                "phpspec/phpspec": "~2.4"
+            },
+            "suggest": {
+                "guzzle/guzzle": "To use GuzzleAdapter, require guzzle/guzzle:~3.7.",
+                "guzzlehttp/guzzle": "To use GuzzleHttpAdapter, require guzzlehttp/guzzle:~5.0|~6.0.",
+                "kriswallsmith/buzz": "To use BuzzAdapter, require kriswallsmith/buzz:~0.10."
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.2-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "DigitalOceanV2\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Antoine Corcy",
+                    "email": "contact@sbin.dk",
+                    "homepage": "http://sbin.dk",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Yassir Hannnoun",
+                    "email": "yassir.hannoun@gmail.com",
+                    "homepage": "https://yassirh.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "DigitalOcean API v2 PHP 5.4+ library",
+            "homepage": "https://github.com/toin0u/DigitalOceanV2",
+            "keywords": [
+                "Cloud Hosting",
+                "SSD",
+                "api",
+                "digitalocean",
+                "vps"
+            ],
+            "time": "2017-04-18T15:02:19+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
